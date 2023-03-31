@@ -1,0 +1,34 @@
+mkdir Игрушки_для_школьников
+mkdir Игрушки_для_дошколят
+cd Игрушки_для_дошколят/
+cat > Роботы
+роботы
+cat > Конструктор
+Конструктор
+cat > Настольные_игры
+Настольные игры
+cd Игрушки_для_школьников/
+cat > Мягкие_игрушки
+Мягкие игрушки
+cat > Куклы
+Куклы
+cat > Машинки
+Машинки
+mkdir Имя_Игрушки
+mv Игрушки_для_дошколят/* Имя_Игрушки/
+mv Игрушки_для_школьников/* Имя_Игрушки/
+mv /home/leonid/lws/Имя_Игрушки/ /home/leonid/lws/Игрушки/
+cd Игрушки
+ll
+sudo snap install chromium
+snap list
+snap remove chromium
+crontab -e
+crontab -l
+*/3 * * * * cat /home/leonid/lws/*.txt > /home/leonid/lws/*.txt
+sudo snap install chromium
+snap list
+snap remove chromium
+crontab -e
+crontab -l
+*/3 * * * * cat /home/leonid/lws/*.txt > /home/leonid/lws/*.txt
